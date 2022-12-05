@@ -17,6 +17,7 @@
 		C8BBA3FA293E2DB6003F33C5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BBA3F9293E2DB6003F33C5 /* ViewModel.swift */; };
 		C8BBA3FC293E3A6C003F33C5 /* PickerFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BBA3FB293E3A6C003F33C5 /* PickerFrequency.swift */; };
 		C8BBA3FE293E44E6003F33C5 /* CategoriesToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BBA3FD293E44E6003F33C5 /* CategoriesToImage.swift */; };
+		C8BBA400293E657A003F33C5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BBA3FF293E657A003F33C5 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C8BBA3F9293E2DB6003F33C5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		C8BBA3FB293E3A6C003F33C5 /* PickerFrequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerFrequency.swift; sourceTree = "<group>"; };
 		C8BBA3FD293E44E6003F33C5 /* CategoriesToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesToImage.swift; sourceTree = "<group>"; };
+		C8BBA3FF293E657A003F33C5 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		C8BBA3D8293E1465003F33C5 = {
 			isa = PBXGroup;
 			children = (
+				C8BBA3FF293E657A003F33C5 /* CoreDataManager.swift */,
 				C8BBA3FD293E44E6003F33C5 /* CategoriesToImage.swift */,
 				C8BBA3FB293E3A6C003F33C5 /* PickerFrequency.swift */,
 				C8BBA3F7293E26E5003F33C5 /* NewTaskObjectView.swift */,
@@ -161,6 +164,7 @@
 				C8BBA3E7293E1465003F33C5 /* ContentView.swift in Sources */,
 				C8BBA3F8293E26E5003F33C5 /* NewTaskObjectView.swift in Sources */,
 				C8BBA3FA293E2DB6003F33C5 /* ViewModel.swift in Sources */,
+				C8BBA400293E657A003F33C5 /* CoreDataManager.swift in Sources */,
 				C8BBA3FE293E44E6003F33C5 /* CategoriesToImage.swift in Sources */,
 				C8BBA3E5293E1465003F33C5 /* DDApp.swift in Sources */,
 			);

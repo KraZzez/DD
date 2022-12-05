@@ -137,8 +137,8 @@ struct NewTaskObjectView: View {
                 } else if !showPresetTasksCategories {
                     guard !taskObjectText.isEmpty else { return }
                     coreDataManager.addTaskObject(name: taskObjectText, category: selectedCategory, frequency: selectedPriority.rawValue)
-                    dismiss()
                 } else { return }
+                dismiss()
             } label: {
                 Text("Submit")
                     .font(.headline)
